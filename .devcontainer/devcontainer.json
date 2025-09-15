@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "postAttachCommand": "streamlit run app.py --server.port 8501",
+  "forwardPorts": [8501]
+
+}
+
+
+// "image": ...: This defines the base Linux environment with Python 3.9 already installed.
+
+// "postCreateCommand": ...: This runs once when the Codespace is first built. It installs all the Python packages from your requirements.txt file.
+
+// "postAttachCommand": ...: This is the magic part. It runs every time you connect to the Codespace. It automatically starts your Streamlit app.
+
+// "forwardPorts": [8501]: This ensures the port for Streamlit (8501) is automatically opened.
