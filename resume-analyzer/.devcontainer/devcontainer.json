@@ -2,7 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/python:3.9",
   "postCreateCommand": "pip install --user -r requirements.txt",
   "postAttachCommand": "streamlit run app.py --server.port 8501",
-  "forwardPorts": [8501],
+  "forwardPorts": [8501]
 }
 
 
