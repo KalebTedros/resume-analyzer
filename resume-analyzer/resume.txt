@@ -1,0 +1,4 @@
+John Doe
+Second Year Computer Science Student
+Technical Skills: Python, Java, Git, Linux, SQL, AWS EC2, Pandas, NumPy.
+Projects: Built a web scraper using Python and BeautifulSoup. Analyzed dataset with Pandas to visualize trends.
